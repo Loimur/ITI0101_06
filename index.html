@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>ITI0101_06 KT veebileht</title>
+    <style>
+        body {
+            font-family: Bahnschrift, sans-serif;
+            background-color: aliceblue;
+            margin: 0% 20%;
+        }
+        h1 {
+            text-align: center;
+        }
+        table, td {
+            border: 1px solid dimgrey;
+            border-collapse: collapse;
+            padding: 1%;
+        }
+        table {
+            width: 100%;
+            text-align: center;
+        }
+        thead {
+            background-color: lightsteelblue;
+            font-weight: bold;
+        }
+        footer {
+            padding-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <h1>233859 veebileht</h1>
+            <p><b>Siin on kirjeldatud erinevad sorteerimise algoritmid:</b></p>
+            <ul>
+                <li>Selection sort: Võtab järjestikku väikseima elemendi ja asetab selle õigesse kohta.</li>
+                <li>Merge sort: Jagab listi pooleks, sorteerib osad eraldi ja ühendab need seejärel tagasi.</li>
+                <li>Quicksort: Valib elemendi (pivoti), jagab selle järgi listi kaheks osaks ning kordab protsessi mõlemal poolel.</li>
+            </ul>
+            <table>
+                <thead>
+                    <td>Algoritm</td>
+                    <td>Parima juhu keerukus</td>
+                    <td>Keskmise juhu keerukus</td>
+                    <td>Halvima juhu keerukus</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Selection sort</td>
+                        <td>n<sup>2</sup></td>
+                        <td>n<sup>2</sup></td>
+                        <td>n<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <td>Merge sort</td>
+                        <td>n log n</td>
+                        <td>n log n</td>
+                        <td>n log n</td>
+                    </tr>
+                    <tr>
+                        <td>Quicksort</td>
+                        <td>n log n</td>
+                        <td>n log n</td>
+                        <td>n<sup>2</sup></td>
+                    </tr>
+                </tbody>
+            </table>
+    <footer>
+        <a href="https://taltech.ee/"><img title="Link TalTechi kodulehele" src="https://taltech.ee/static/footer-logo-small-colored.svg"></a>
+    </footer>
+</body>
+</html>
